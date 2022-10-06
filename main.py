@@ -1,4 +1,4 @@
-from typing import Optional
+lfrom typing import Optional
 
 from fastapi import FastAPI
 
@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Hello people"}
 
 @app.get("/items/{item_id}")
 def read_item(item_id: int, q: Optional[str] = None):
