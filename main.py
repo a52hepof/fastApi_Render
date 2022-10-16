@@ -303,13 +303,4 @@ def precioluzGrafico():
 
 
 
-'''
-@app.get("/items/{item_id}")
-def read_item(item_id: int, q: Optional[str] = None):
-    return {"item_id": item_id, "q": str(q+str(item_id))}
-
-'''
-
-
-
 
