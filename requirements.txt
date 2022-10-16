@@ -1,5 +1,7 @@
 fastapi[all]
+requests==2.21.0
 bs4
 pandas
 plotly
 kaleido
+idna

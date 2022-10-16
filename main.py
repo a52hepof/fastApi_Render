@@ -6,6 +6,10 @@ import pandas as pd
 from fastapi.responses import FileResponse
 import plotly.express as px
 import json
+from fastapi.testclient import TestClient
+
+#uvicorn main:app --host 0.0.0.0 --port 10000
+
 
 app = FastAPI()
 
